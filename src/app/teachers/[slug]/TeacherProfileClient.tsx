@@ -194,7 +194,7 @@ export default function TeacherProfileClient({ teacher }: { teacher: Teacher }) 
           <AnimatedSection delay={0.2}>
             <motion.div 
               className="bg-ivory rounded-2xl p-6 sm:p-8 border border-gray-200 shadow-sm"
-              whileHover={{ shadow: "0 20px 25px -5px rgb(0 0 0 / 0.1)" }}
+              whileHover={{ boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1)" }}
             >
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
                 {teacher.bio}
